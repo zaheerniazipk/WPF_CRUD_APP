@@ -1,0 +1,16 @@
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\bin\Debug\WPF_CRUD.exe.config
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\bin\Debug\WPF_CRUD.exe
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\bin\Debug\WPF_CRUD.pdb
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.csproj.AssemblyReference.cache
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.csproj.SuggestedBindingRedirects.cache
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\MainWindow.g.cs
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\App.g.cs
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD_MarkupCompile.cache
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD_MarkupCompile.lref
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\MainWindow.baml
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.g.resources
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.Properties.Resources.resources
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.csproj.GenerateResource.cache
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.csproj.CoreCompileInputs.cache
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.exe
+D:\Tech\Coding\Web_Programing\Programming\C#\WPF_CRUD\obj\Debug\WPF_CRUD.pdb

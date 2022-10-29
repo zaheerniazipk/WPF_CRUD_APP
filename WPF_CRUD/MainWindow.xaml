@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF_CRUD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_CRUD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Title" Content="CRUD Operations" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Background="#FFDC2828" Foreground="White" Width="250" HorizontalContentAlignment="Center"/>
+        <Label  Content="Name" HorizontalAlignment="Left" Margin="30,86,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.39,0.166"/>
+        <Label  Content="Age" HorizontalAlignment="Left" Margin="39,138,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.41,-0.119"/>
+        <Label  Content="City" HorizontalAlignment="Left" Margin="39,239,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.578,0.95"/>
+        <Label  Content="Gender" HorizontalAlignment="Left" Margin="28,188,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.564,-0.138"/>
+        <TextBox x:Name="name_txt" HorizontalAlignment="Left" Margin="119,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="16"/>
+        <TextBox x:Name="age_txt" HorizontalAlignment="Left" Margin="119,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="16"/>
+        <TextBox x:Name="gender_txt" HorizontalAlignment="Left" Margin="119,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="16"/>
+        <TextBox x:Name="city_txt" HorizontalAlignment="Left" Margin="119,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="16"/>
+        <DataGrid x:Name="datagrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="338,83,22,140"/>
+        <Button x:Name="InsertBtn" Content="Insert Record" HorizontalAlignment="Left" Margin="65,358,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="158" Height="40" Background="#FFE83434" Foreground="White" Click="InsertBtn_Click"/>
+        <Button x:Name="DeleteBtn" Content="Delete Record" HorizontalAlignment="Left" Margin="240,358,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="159" Height="40" Click="DeleteBtn_Click" BorderBrush="Black" Background="#FFE83434" Foreground="White"/>
+        <Button x:Name="UpdateBtn" Content="Update Record" HorizontalAlignment="Left" Margin="424,358,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="159" Height="40" Click="UpdateBtn_Click" BorderBrush="Black" Background="#FFE83434" Foreground="White"/>
+        <Button x:Name="ClearBtn" Content="Clear" HorizontalAlignment="Left" Margin="615,358,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="128" Height="40" RenderTransformOrigin="3.345,0.616" BorderBrush="Black" Background="#FFE83434" Foreground="White" Click="ClearBtn_Click"/>
+        <Label  Content="ID" HorizontalAlignment="Left" Margin="190,309,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.578,0.95"/>
+        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Margin="270,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="16"/>
+
+    </Grid>
+</Window>
